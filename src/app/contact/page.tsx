@@ -58,6 +58,7 @@ export default function ContactPage() {
         "We require 24 hours notice for cancellations. Same-day cancellations may incur a fee.",
     },
   ];
+
   const mapCenter = {
     lat: 40.7128, // Example coordinates (NYC), replace with your location
     lng: -74.006,
@@ -75,7 +76,7 @@ export default function ContactPage() {
           Get in Touch
         </h1>
         <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-          We're here to assist you with reservations, inquiries, and any
+          We&apos;re here to assist you with reservations, inquiries, and any
           questions about your dining experience
         </p>
       </section>

@@ -23,7 +23,7 @@ export default function AboutPage() {
       name: "James Chen",
       role: "Pastry Chef",
       description:
-        "Creating edible art with every dessert, Chef Chen's innovative approach to pastry has earned international recognition.",
+        "Creating edible art with every dessert, Chef Chen&rsquo;s innovative approach to pastry has earned international recognition.",
       image:
         "https://res.cloudinary.com/dhlyei79o/image/upload/v1749719144/chef_1_qivkfm.jpg",
     },
@@ -99,9 +99,9 @@ export default function AboutPage() {
             Our Philosophy
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed mb-8">
-            We believe that dining is more than sustenance—it's an art form, a
-            celebration, and a journey of discovery. Every dish tells a story,
-            every flavor evokes emotion, and every meal creates lasting
+            We believe that dining is more than sustenance—it&apos;s an art
+            form, a celebration, and a journey of discovery. Every dish tells a
+            story, every flavor evokes emotion, and every meal creates lasting
             memories.
           </p>
           <div className="grid md:grid-cols-4 gap-8 mt-12">
@@ -158,7 +158,9 @@ export default function AboutPage() {
                 className="bg-gray-800 border-gray-700 overflow-hidden"
               >
                 <div className="aspect-square overflow-hidden">
-                  <img
+                  <Image
+                    width={1200}
+                    height={1200}
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"

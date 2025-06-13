@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface GalleryImage {
@@ -25,7 +24,6 @@ export default function Lightbox({
   return (
     <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
       <div className="relative max-w-4xl max-h-full">
-        {/* Close button */}
         <button
           onClick={closeLightbox}
           className="absolute top-4 right-4 z-10 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition-colors"
@@ -33,7 +31,6 @@ export default function Lightbox({
           <X className="h-6 w-6" />
         </button>
 
-        {/* Navigation buttons */}
         <button
           onClick={() => navigateLightbox("prev")}
           className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition-colors"
@@ -47,14 +44,15 @@ export default function Lightbox({
           <ChevronRight className="h-6 w-6" />
         </button>
 
-        {/* Image */}
-        <img
-          src={currentImage.src || "/placeholder.svg"}
-          alt={currentImage.caption}
-          className="max-w-full max-h-full object-contain"
-        />
+        <div className="relative w-full h-[80vh]">
+          <Image
+            src={currentImage.src || "/placeholder.svg"}
+            alt={currentImage.caption}
+            fill
+            className="object-contain"
+          />
+        </div>
 
-        {/* Caption */}
         <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-4">
           <p className="text-center font-medium">{currentImage.caption}</p>
         </div>

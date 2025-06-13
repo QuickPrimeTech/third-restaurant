@@ -39,7 +39,7 @@ export default function EventInquiryForm() {
               Plan Your Event
             </CardTitle>
             <p className="text-gray-300 text-center">
-              Tell us about your vision and we'll make it a reality
+              Tell us about your vision and we&apos;ll make it a reality
             </p>
           </CardHeader>
           <CardContent>

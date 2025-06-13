@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users } from "lucide-react";
 
@@ -12,7 +13,7 @@ export default function EventSpaces() {
         "AV equipment",
         "Dedicated service staff",
       ],
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/placeholder.svg",
       description:
         "Our intimate private dining room perfect for business dinners and special celebrations.",
     },
@@ -25,7 +26,7 @@ export default function EventSpaces() {
         "Custom menu options",
         "Valet parking",
       ],
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/placeholder.svg",
       description:
         "Elegant space for larger gatherings, weddings, and corporate events.",
     },
@@ -38,7 +39,7 @@ export default function EventSpaces() {
         "Wine pairing",
         "Exclusive menu",
       ],
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/placeholder.svg",
       description:
         "An exclusive culinary experience with front-row seats to our kitchen.",
     },
@@ -56,11 +57,13 @@ export default function EventSpaces() {
               key={index}
               className="bg-gray-800 border-gray-700 overflow-hidden"
             >
-              <div className="aspect-[4/3] overflow-hidden">
-                <img
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
                   src={space.image || "/placeholder.svg"}
                   alt={space.name}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 1024px) 100vw, 33vw"
                 />
               </div>
               <CardContent className="p-6">

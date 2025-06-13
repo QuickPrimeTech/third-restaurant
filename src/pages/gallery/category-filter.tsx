@@ -17,7 +17,7 @@ export default function CategoryFilter({
     <section className="py-8 px-4 border-b border-gray-800">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-wrap justify-center gap-4">
-          {categories.map((category) => (
+          {(categories || []).map((category) => (
             <Button
               key={category.id}
               variant={selectedCategory === category.id ? "default" : "outline"}

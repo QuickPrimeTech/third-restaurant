@@ -71,7 +71,7 @@ export default function PrivateEventsPage() {
         "Elegant space for larger gatherings, weddings, and corporate events.",
     },
     {
-      name: "Chef's Table",
+      name: "Chef&apos;s Table",
       capacity: "6-8 guests",
       features: [
         "Kitchen view",
@@ -90,11 +90,11 @@ export default function PrivateEventsPage() {
     {
       name: "Sarah Johnson",
       event: "Corporate Dinner",
-      text: "The Obsidian Plate exceeded all expectations for our company's annual dinner. The service was impeccable and the food was extraordinary.",
+      text: "The Obsidian Plate exceeded all expectations for our company&rsquo;s annual dinner. The service was impeccable and the food was extraordinary.",
       rating: 5,
     },
     {
-      name: "Michael & Emma",
+      name: "Michael &amp; Emma",
       event: "Wedding Reception",
       text: "Our wedding reception was absolutely perfect. The team handled every detail with care and professionalism.",
       rating: 5,
@@ -247,7 +247,7 @@ export default function PrivateEventsPage() {
                     ))}
                   </div>
                   <p className="text-gray-300 mb-4 italic">
-                    "{testimonial.text}"
+                    &quot;{testimonial.text}&quot;
                   </p>
                   <div>
                     <p className="text-amber-400 font-semibold">
@@ -271,7 +271,7 @@ export default function PrivateEventsPage() {
                 Plan Your Event
               </CardTitle>
               <p className="text-gray-300 text-center">
-                Tell us about your vision and we'll make it a reality
+                Tell us about your vision and we&apos;ll make it a reality
               </p>
             </CardHeader>
             <CardContent>

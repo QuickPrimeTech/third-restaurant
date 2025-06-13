@@ -3,14 +3,18 @@
 interface MenuNavigationProps {
   activeCategory: string;
   setActiveCategory: (category: string) => void;
-  categories: { id: string; name: string }[];
+  categories?: { id: string; name: string }[]; // made optional for safety
 }
 
 export default function MenuNavigation({
   activeCategory,
   setActiveCategory,
-  categories,
+  categories = [], // default empty array
 }: MenuNavigationProps) {
+  if (categories.length === 0) {
+    return null; // no need to render navigation if no categories
+  }
+
   return (
     <div className="sticky top-16 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-40">
       <div className="max-w-6xl mx-auto px-4">

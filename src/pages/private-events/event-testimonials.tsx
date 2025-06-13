@@ -36,7 +36,9 @@ export default function EventTestimonials() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 italic">
-                  "{testimonial.text}"
+                  {"“"}
+                  {testimonial.text}
+                  {"”"}
                 </p>
                 <div>
                   <p className="text-amber-400 font-semibold">
