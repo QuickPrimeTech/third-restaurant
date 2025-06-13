@@ -83,7 +83,7 @@ export default function AboutPage() {
               <Image
                 width={900}
                 height={1200}
-                src="/images (16).jpg"
+                src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg"
                 alt="Restaurant interior"
                 className="rounded-lg shadow-2xl"
               />
