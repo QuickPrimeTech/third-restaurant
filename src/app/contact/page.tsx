@@ -1,7 +1,7 @@
 "use client";
 
 import type React from "react";
-
+import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -58,6 +58,14 @@ export default function ContactPage() {
         "We require 24 hours notice for cancellations. Same-day cancellations may incur a fee.",
     },
   ];
+  const mapCenter = {
+    lat: 40.7128, // Example coordinates (NYC), replace with your location
+    lng: -74.006,
+  };
+  const { isLoaded } = useJsApiLoader({
+    id: "google-map-script",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!, // Ensure your .env.local has this
+  });
 
   return (
     <div className="min-h-screen pt-20">
@@ -273,14 +281,20 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="aspect-video bg-gray-700 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-amber-400 mx-auto mb-4" />
-                    <p className="text-gray-300">Interactive Map</p>
-                    <p className="text-gray-400 text-sm">
-                      123 Culinary Boulevard, Downtown District
-                    </p>
-                  </div>
+                <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                  {isLoaded ? (
+                    <GoogleMap
+                      mapContainerStyle={{ width: "100%", height: "100%" }}
+                      center={mapCenter}
+                      zoom={14}
+                    >
+                      <Marker position={mapCenter} />
+                    </GoogleMap>
+                  ) : (
+                    <div className="flex items-center justify-center h-full">
+                      <p className="text-gray-300">Loading map...</p>
+                    </div>
+                  )}
                 </div>
               </CardContent>
             </Card>
