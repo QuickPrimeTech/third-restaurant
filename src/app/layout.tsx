@@ -15,6 +15,32 @@ export const metadata: Metadata = {
   title: "The Obsidian Plate - An Unforgettable Culinary Journey",
   description:
     "Experience refined elegance and exceptional cuisine at The Obsidian Plate. Book your table for an unforgettable dining experience.",
+  openGraph: {
+    title: "The Obsidian Plate - An Unforgettable Culinary Journey",
+    description:
+      "Experience refined elegance and exceptional cuisine at The Obsidian Plate. Book your table for an unforgettable dining experience.",
+    url: "https://third-restaurant.vercel.app/",
+    siteName: "The Obsidian Plate",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
+        width: 1200,
+        height: 630,
+        alt: "The Obsidian Plate - An Unforgettable Culinary Journey",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Obsidian Plate - An Unforgettable Culinary Journey",
+    description:
+      "Experience refined elegance and exceptional cuisine at The Obsidian Plate. Book your table for an unforgettable dining experience.",
+    images: [
+      "https://res.cloudinary.com/dhlyei79o/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
+    ],
+  },
 };
 
 export default function RootLayout({
