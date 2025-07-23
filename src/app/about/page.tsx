@@ -9,7 +9,7 @@ export default function AboutPage() {
       description:
         "With over 15 years of Michelin-starred experience, Chef Beaumont brings innovative techniques and classical training to every dish.",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749719146/chef_1_xtp86u.png",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749719146/chef_1_xtp86u.png",
     },
     {
       name: "Isabella Rodriguez",
@@ -17,7 +17,7 @@ export default function AboutPage() {
       description:
         "Our master sommelier curates an exceptional wine program, pairing each bottle with the perfect culinary complement.",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749719145/chef_3_teamzr.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749719145/chef_3_teamzr.jpg",
     },
     {
       name: "James Chen",
@@ -25,7 +25,7 @@ export default function AboutPage() {
       description:
         "Creating edible art with every dessert, Chef Chen&rsquo;s innovative approach to pastry has earned international recognition.",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749719144/chef_1_qivkfm.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749719144/chef_1_qivkfm.jpg",
     },
   ];
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 text-center overflow-hidden">
         {/* Background Image */}
         <Image
-          src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718074/images_11_ptucpi.jpg" // Replace with your Cloudinary image
+          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718074/images_11_ptucpi.jpg" // Replace with your Cloudinary image
           alt="Our story background"
           fill
           className="object-cover z-0"
@@ -83,7 +83,7 @@ export default function AboutPage() {
               <Image
                 width={900}
                 height={1200}
-                src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg"
+                src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg"
                 alt="Restaurant interior"
                 className="rounded-lg shadow-2xl"
               />
@@ -191,7 +191,7 @@ export default function AboutPage() {
               <Image
                 width={900}
                 height={1200}
-                src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718094/images_18_ha9xzb.jpg"
+                src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718094/images_18_ha9xzb.jpg"
                 alt="Restaurant dining room"
                 className="rounded-lg shadow-2xl"
               />

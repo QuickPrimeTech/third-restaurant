@@ -52,7 +52,7 @@ export default function PrivateEventsPage() {
         "Dedicated service staff",
       ],
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749737617/valentine-s-day-celebration-with-flowers_23-2151917809_szp0fk.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749737617/valentine-s-day-celebration-with-flowers_23-2151917809_szp0fk.jpg",
       description:
         "Our intimate private dining room perfect for business dinners and special celebrations.",
     },
@@ -66,7 +66,7 @@ export default function PrivateEventsPage() {
         "Valet parking",
       ],
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749737618/romantic-man-giving-rose-woman-date_53876-46183_juysmg.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749737618/romantic-man-giving-rose-woman-date_53876-46183_juysmg.jpg",
       description:
         "Elegant space for larger gatherings, weddings, and corporate events.",
     },
@@ -80,7 +80,7 @@ export default function PrivateEventsPage() {
         "Exclusive menu",
       ],
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749737618/classic-luxury-style-restaurant-with-tables-chairs_140725-9390_b7qurr.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749737618/classic-luxury-style-restaurant-with-tables-chairs_140725-9390_b7qurr.jpg",
       description:
         "An exclusive culinary experience with front-row seats to our kitchen.",
     },
@@ -107,7 +107,7 @@ export default function PrivateEventsPage() {
       <section className="relative py-20 px-4 text-center overflow-hidden">
         {/* Background Image */}
         <Image
-          src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749737618/classic-luxury-style-restaurant-with-tables-chairs_140725-9390_b7qurr.jpg" // Replace with your own Cloudinary image URL
+          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749737618/classic-luxury-style-restaurant-with-tables-chairs_140725-9390_b7qurr.jpg" // Replace with your own Cloudinary image URL
           alt="Event background"
           fill
           className="object-cover z-0"

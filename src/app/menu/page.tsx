@@ -26,7 +26,7 @@ export default function MenuPage() {
           "Fresh Blue Point oysters with black caviar and champagne mignonette",
         price: "$24",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718107/images_23_u2vxiz.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718107/images_23_u2vxiz.jpg",
         dietary: ["gluten-free"],
       },
       {
@@ -35,7 +35,7 @@ export default function MenuPage() {
           "Crispy risotto balls with black truffle, parmesan, and herb oil",
         price: "$18",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718110/lunch_7_kzmfn1.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718110/lunch_7_kzmfn1.jpg",
         dietary: ["vegetarian"],
       },
       {
@@ -43,7 +43,7 @@ export default function MenuPage() {
         description: "Yellowfin tuna with avocado, citrus, and sesame tuile",
         price: "$22",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718099/images_19_tbzmxs.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718099/images_19_tbzmxs.jpg",
         dietary: ["gluten-free", "dairy-free"],
       },
     ],
@@ -54,7 +54,7 @@ export default function MenuPage() {
           "Premium A5 Wagyu beef with black truffle reduction and seasonal vegetables",
         price: "$85",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718091/images_12_chalnx.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718091/images_12_chalnx.jpg",
         dietary: ["gluten-free"],
       },
       {
@@ -63,7 +63,7 @@ export default function MenuPage() {
           "Pan-seared Chilean sea bass with emerald herb crust and saffron foam",
         price: "$42",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718079/images_14_r942xy.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718079/images_14_r942xy.jpg",
         dietary: ["gluten-free"],
       },
       {
@@ -72,7 +72,7 @@ export default function MenuPage() {
           "Slow-cooked duck leg with cherry gastrique and roasted root vegetables",
         price: "$38",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718074/images_11_ptucpi.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718074/images_11_ptucpi.jpg",
         dietary: ["dairy-free"],
       },
     ],
@@ -83,7 +83,7 @@ export default function MenuPage() {
           "Decadent chocolate soufflé with gold leaf and vanilla bean ice cream",
         price: "$16",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718074/images_5_q9wv7o.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718074/images_5_q9wv7o.jpg",
         dietary: ["vegetarian"],
       },
       {
@@ -92,7 +92,7 @@ export default function MenuPage() {
           "Dark chocolate tart with salted caramel and espresso dust",
         price: "$14",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718072/images_3_oz3my0.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718072/images_3_oz3my0.jpg",
         dietary: ["vegetarian"],
       },
     ],
@@ -118,14 +118,14 @@ export default function MenuPage() {
           "Premium vodka with black olive tapenade and activated charcoal",
         price: "$18",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718070/images_1_wu7l2z.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718070/images_1_wu7l2z.jpg",
       },
       {
         name: "Golden Hour",
         description: "Aged whiskey with honey, lemon, and gold flakes",
         price: "$16",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718071/images_4_t8l5rp.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718071/images_4_t8l5rp.jpg",
       },
     ],
     beverages: [
@@ -134,14 +134,14 @@ export default function MenuPage() {
         description: "Single-origin beans roasted to perfection",
         price: "$6",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718074/images_5_q9wv7o.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718074/images_5_q9wv7o.jpg",
       },
       {
         name: "Herbal Tea Selection",
         description: "Curated selection of premium loose-leaf teas",
         price: "$5",
         image:
-          "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718080/images_9_gcqogn.jpg",
+          "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718080/images_9_gcqogn.jpg",
       },
     ],
   };

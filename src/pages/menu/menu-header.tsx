@@ -7,7 +7,7 @@ export default function MenuHeader() {
     <section className="relative py-20 px-4 text-center overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718110/lunch_7_kzmfn1.jpg" // Replace with your Cloudinary image
+        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718110/lunch_7_kzmfn1.jpg" // Replace with your Cloudinary image
         alt="Menu background"
         fill
         className="object-cover z-0"
