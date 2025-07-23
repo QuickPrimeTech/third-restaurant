@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "The Obsidian Plate",
     images: [
       {
-        url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
+        url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
         width: 1200,
         height: 630,
         alt: "The Obsidian Plate - An Unforgettable Culinary Journey",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description:
       "Experience refined elegance and exceptional cuisine at The Obsidian Plate. Book your table for an unforgettable dining experience.",
     images: [
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750696183/OpenGraphImage_ck9ub8.png",
     ],
   },
 };

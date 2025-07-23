@@ -9,21 +9,21 @@ export default function SignatureDishes() {
       description:
         "Premium A5 Wagyu beef with black truffle reduction and seasonal vegetables",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718095/lunch_2_epqx55.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718095/lunch_2_epqx55.jpg",
     },
     {
       name: "Emerald Sea Bass",
       description:
         "Pan-seared Chilean sea bass with emerald herb crust and saffron foam",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718110/lunch_7_kzmfn1.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718110/lunch_7_kzmfn1.jpg",
     },
     {
       name: "Golden Soufflé",
       description:
         "Decadent chocolate soufflé with gold leaf and vanilla bean ice cream",
       image:
-        "https://res.cloudinary.com/dhlyei79o/image/upload/v1749718114/lunch_3_xbgap9.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718114/lunch_3_xbgap9.jpg",
     },
   ];
 

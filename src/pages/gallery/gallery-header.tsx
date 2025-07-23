@@ -4,7 +4,7 @@ export default function GalleryHeader() {
     <section className="relative py-20 px-4 text-center overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718071/images_4_t8l5rp.jpg" // Replace with your actual Cloudinary image URL
+        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718071/images_4_t8l5rp.jpg" // Replace with your actual Cloudinary image URL
         alt="Visual journey background"
         fill
         className="object-cover z-0 "

@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section className="relative h-screen flex items-center justify-center">
       <div className="absolute inset-0">
         <Image
-          src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718102/lunch_4_ffpkw4.jpg"
+          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718102/lunch_4_ffpkw4.jpg"
           alt="Hero Background"
           layout="fill"
           objectFit="cover"

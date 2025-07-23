@@ -29,7 +29,7 @@ export default function AboutTeaser() {
             <Image
               width={1200}
               height={1200}
-              src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749718109/images_20_abljer.jpg"
+              src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749718109/images_20_abljer.jpg"
               alt="Chef preparing food"
               className="rounded-lg shadow-2xl"
             />
